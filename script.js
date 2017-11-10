@@ -1,6 +1,6 @@
 const terms = [
 
-    'motorcycle', 'motorbike', 'bike',
+    'motorcycle', 'motorbike', 'bike', 'roach',
 
     // Basic Anatomy
     'wheel', 'tire', 'seat', 'handlebar', 'tank', 'throttle', 'brake', 'clutch',
@@ -9,10 +9,10 @@ const terms = [
 
     // Measures
     'wet weight', 'wheelbase', 'rake', 'trail', 'ground clearance', 'seat height', 'displacement',
-    '0 - 60', 'suspension-travel', 'wheel diameter', 
+    '0 - 60', 'suspension-travel', 'wheel diameter', 'fuel capacity', 
     
     // Onomatopoeia
-    'braap', 'braaap', 'braaaap!',
+    'braap', 'braaap', 'braaaap!', 'ringaninganinganing!',
 
     // Motorcycle brands
     'Aprilia', 'BMW', 'BSA', 'Buell', 'Ducati', 'EBR', 'Harley-Davidson', 'Honda', 'Husqvarna',
@@ -24,38 +24,40 @@ const terms = [
     'UJM', 'flat-track', 'cafe racer', 'dual sport', 'stunter', 
 
     // Various brands
-    'Touratech', 'Advan', 'Yoshimura', 'Akropovich', 'Motorex', 'Lucas',
+    'Touratech', 'Advan', 'Yoshimura', 'Akropovich', 'Motorex', 'Lucas', 'Motoz', 'baja Designs', 'Pro-Taper', 
+    'Marchesini Wheels', 
 
     // Engine
-    'engine', 'ICE', 'block', 'spark plug', 'oil capacity', 
+    'engine', 'ICE', 'block', 'spark plug', 'oil capacity', 'two stroke', 'titanium', 'engine cases',
     'compression', 'compression ratio', 'horsepower', 'torque', 'liquid cooled', 'power-valve', 'power-band', 
-    '90% of peak torque', 'below 3,000 RPM', 'pinned', 'exhaust flow control valve', 
+    '90% of peak torque', 'below 3,000 RPM', 'pinned', 'exhaust flow control valve', 'boxer', 'air-cooled',
     'crankcase', 'crankcase cover', 'gasket', 'piston', 'blown', 'melted', 'needle bearing', 'valve float', 
-    'cylinder', 'cylinder head', 'valve', 'cam', 'cam chain', 'noisy cam chain tensioner',  
+    'cylinder', 'cylinder head', 'valve', 'cam', 'cam chain', 'noisy cam chain tensioner', 'kick start', 'V4', 
 
     // Electrical
     'battery', 'battery tray', 'terminal', 'lead', 'advance', 'retard', 'timing', 'harness', 'turn signal', 
+    'power-commander', ' LED Lights', 
 
     // Fuel
-    'gas', 'gasoline', 'petrol', 'lead', 'lead additive', 'octane', 'octane booster',
+    'gas', 'gasoline', 'petrol', 'lead', 'lead additive', 'octane', 'octane booster', 'race gas', 'pre-mix',
 
     // Fuel system
-    'Amal',
+    'Amal', 'Mikuni', 
     'carburettor', 'carburetor', 'float', 'bowl', 'jet', 'guide spindle', 'return spring',
     'mixing chamber', 'rich', 'choke', 'enrichener', 'intake', 'air filter',
-    'venturi', 'vacuum chamber', 'whiskey throttle', 'air-box', 
+    'venturi', 'vacuum chamber', 'air-box', 'butterfly valve', 
     'lean', 'fuel injection', 
     
     // Ergonomics
-    'foot peg', 'grip', 'seat', 'seat height', 'windshield', 
+    'foot peg', 'grip', 'seat', 'seat height', 'windshield', 'heated vest', 'soft bags', 'leathers', 'helmet', 'visor', 'goggles', 'tear-offs', 'carbon fiber', 
 
     // Tools
     'Phillips', 'flat-head', 'metric', 'imperial', 'torx', 'allen key', 'where-is-my-goddamn-10mm', 'axel wrench',
     'spoke wrench', 'masterlink', 
 
     // Ride
-    'Apex', 'accelerate', 'decelerate', 'brake', 'shift gear', 'back a gear or two', 'pin it',
-    'do a ton', 'burn up', 'bird up', 'pillion', 'overtake', 'back-it-in', 'wheel-hop', 'wheelie', 'chicken-strips', 'squid', 'knee-drag', 'elbow-drag', 'marbled-tires', 'heat cycle', 'tire-blankets', 'on-the-stopper', 'knee pucks', 'Iron Butt', 'fan the clutch', 'endo', 'drift',
+    'Apex', 'accelerate', 'decelerate', 'brake', 'shift gear', 'back a gear or two', 'pin it', 'berm', 'idle',
+    'do a ton', 'burn up', 'bird up', 'pillion', 'overtake', 'back-it-in', 'high side', 'wheel-hop', 'wheelie', 'chicken-strips', 'squid', 'knee-drag', 'elbow-drag', 'marbled-tires', 'heat cycle', 'tire-blankets', 'on-the-stopper', 'knee pucks', 'Iron Butt', 'fan the clutch', 'endo', 'drift', 'low side', 'skid', 'round the world', 'whiskey throttle',
 
     // Popular publications
     'Zen and the Art of Motorcycle Maintenance', "Big Sid's Vincati", 'Leaning',
